@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Autonomous AI Escrow DApp</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #0f172a; color: #fff; }
+        .card { background: #1e293b; padding: 20px; border-radius: 8px; max-width: 500px; }
+        input, button { width: 100%; padding: 10px; margin: 8px 0; border-radius: 4px; border: none; }
+        button { background: #3b82f6; color: white; cursor: pointer; font-weight: bold; }
+        button:hover { background: #2563eb; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Autonomous AI Escrow</h2>
+        <p>Deployed Contract: <code>0x3F9Fb6C6aBaBD0Ae6c827c513E7b0fE4C083E9C8</code></p>
+        
+        <h3>Submit Work Proof</h3>
+        <input type="text" id="proofUrl" placeholder="Enter Proof URL (e.g., https://github.com/...)">
+        <button onclick="alert('Work Submitted to GenLayer Contract!')">Submit Work</button>
+
+        <h3>AI Evaluation & Settlement</h3>
+        <button onclick="alert('Triggering GenLayer AI Consensus Execution...')">Evaluate & Release Funds</button>
+    </div>
+</body>
+</html>
